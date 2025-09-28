@@ -227,3 +227,19 @@ section:hover {
   color: #555;
 }
 
+
+
+.contact-item {
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #006747;
+  font-weight: bold;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
