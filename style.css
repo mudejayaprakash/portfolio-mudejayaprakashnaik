@@ -25,21 +25,49 @@ h2 {
   border-bottom: 2px solid #ddd;
 }
 
-.project {
-  background: #fff;
-  padding: 15px;
+#projects {
+  padding: 30px;
+  background: #f4f4f4;
+}
+
+#projects h2 {
+  text-align: center;
+  color: #006747;
   margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.project h3 {
-  color: #006747;  /* USF green */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
 }
 
-.project p {
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.project-card h3 {
+  color: #333;
+  border-bottom: 2px solid #006747;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.project-card p {
+  font-size: 0.95rem;
   line-height: 1.6;
 }
+
 
 section {
   padding: 20px;
