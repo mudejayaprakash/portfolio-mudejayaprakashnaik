@@ -221,3 +221,24 @@ section:hover {
 .contact-card:hover img {
   filter: grayscale(0%); /* full color on hover */
 }
+.contact-card p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.email-link {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 6px 12px;
+  background: #006747;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background 0.3s ease;
+}
+
+.email-link:hover {
+  background: #004d36;
+}
