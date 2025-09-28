@@ -12,6 +12,10 @@ header {
   padding: 20px;
   text-align: center;
 }
+#about p {
+  margin-bottom: 15px;  /* adds space between paragraphs */
+  line-height: 1.6;     /* improves readability */
+}
 
 h2 {
   color: #006747;
@@ -30,3 +34,4 @@ section {
 section:hover {
   transform: scale(1.01);
 }
+
