@@ -39,7 +39,7 @@ header {
 }
 
 .about-image img {
-  width: 350px;
+  width: 250px;
   height: auto;
   object-fit: cover;
   border-radius: 15px;          /* circular image */
@@ -191,7 +191,6 @@ section:hover {
   flex-direction: column;
   align-items: center;
   text-decoration: none;
-  background: white;
   padding: 20px;
   border-radius: 15px;
   width: 150px;
