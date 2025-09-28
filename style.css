@@ -16,6 +16,9 @@ header {
   margin-bottom: 15px;  /* adds space between paragraphs */
   line-height: 1.6;     /* improves readability */
 }
+#about strong {
+  color: #032218;  /* USF Green */
+}
 
 h2 {
   color: #006747;
